@@ -18,5 +18,61 @@ body {
 }
 
 .page-content {
+    display: flex;
     grid-area: content;
+}
+
+.news-feed {
+    display: flex;
+    flex-direction: column;
+    margin: 16px 80px;
+}
+
+.news-feed article:first-of-type {
+    border: solid 1px #aaa;
+    border-radius: 4px;
+    padding: 8px;
+}
+
+.news-feed input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 8px;
+    border-radius: 4px;
+    border-color: black;
+    border-width: 1px;
+}
+
+.news-feed .review {
+    margin: 16px 0;
+    border-radius: 4px;
+    border: solid 1px #aaa;
+}
+
+.news-feed article {
+    background-color: white;
+}
+
+.news-feed .review header {
+    border-bottom: solid 1px #aaa;
+    padding: 16px;
+}
+
+.news-feed .review img {
+    margin-right: 8px;
+    max-width: 140px;
+}
+
+.review-body {
+    padding: 16px 16px;
+    display: flex;
+}
+
+.comment-footer {
+    padding: 8px;
+    border-top: solid 1px #aaa;
+}
+
+.news-feed .review header [user], .news-feed .review header [book] {
+    font-weight: bold;
 }
