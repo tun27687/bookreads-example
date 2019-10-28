@@ -1,0 +1,22 @@
+body {
+    font-family: 'Roboto';
+    margin: 0;
+    background-color: rgba(244,241,234,0.5);
+    display: grid;
+    grid-template-rows: 56px 1fr;
+    grid-template-columns: 270px 1fr;
+    grid-template-areas: "header header"
+                         "sidebar content";
+}
+
+.top-nav {
+    grid-area: header;
+}
+
+.user-activity {
+    grid-area: sidebar;
+}
+
+.page-content {
+    grid-area: content;
+}
