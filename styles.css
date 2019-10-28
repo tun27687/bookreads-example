@@ -1,0 +1,16 @@
+.top-nav {
+    height: 56px;
+    padding: 12px 64px;
+    border-bottom: solid 1px #aaa;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    background-color: #F4F1EA;
+    grid-area: header;
+}
+
+.top-nav h1 {
+    font-size: 24px;
+    color: #444;
+    display: inline-block;
+}
