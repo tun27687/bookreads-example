@@ -35,3 +35,8 @@
 .supplemental-links {
     display: none;
 }
+
+.profile {
+    display: inline-block;
+    margin-left: auto;
+}
