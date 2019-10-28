@@ -20,3 +20,35 @@ body {
 .page-content {
     grid-area: content;
 }
+
+.reading-challenge {
+    padding: 8px;
+}
+
+.currently-reading section img {
+    max-height: 100%;
+    width: 120px;
+    margin-right: 8px;
+}
+
+.currently-reading section {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    border-bottom: solid 1px #aaa;
+    height: 200px;
+    padding: 8px;
+}
+
+.user-activity {
+    display: flex;
+    flex-direction: column;
+    border-right: solid 1px #aaa;
+    background-color: white;
+    grid-area: sidebar;
+}
+
+.user-activity > header {
+    border-bottom: solid 1px #aaa;
+    padding: 8px;
+}
