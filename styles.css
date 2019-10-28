@@ -14,3 +14,24 @@
     color: #444;
     display: inline-block;
 }
+
+.main-links ul, .supplemental-links ul {
+    display: inline-block;
+    margin: 0;
+}
+
+.main-links a, .supplemental-links a {
+    text-decoration: none;
+    color: hsl(200, 70%, 45%);
+}
+
+.main-links li, .supplemental-links li {
+    float: left;
+    margin-left: 24px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.supplemental-links {
+    display: none;
+}
